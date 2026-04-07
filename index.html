@@ -32,7 +32,7 @@ font-family:system-ui;
 }
 
 body{
-background: radial-gradient(circle at top,#0a0f2c,#000);
+background:#0c0f1a;
 color:#fff;
 display:flex;
 justify-content:center;
@@ -49,15 +49,14 @@ padding:20px 15px 100px;
 .profile{
 text-align:center;
 margin-bottom:20px;
-animation:fadeIn 1s ease;
 }
 
 .profile img{
 width:100px;
 height:100px;
 border-radius:50%;
-border:2px solid #00eaff;
-box-shadow:0 0 20px #00eaff;
+object-fit:cover;
+border:2px solid #ccc;
 }
 
 .profile h1{
@@ -68,34 +67,25 @@ font-size:22px;
 /* CARD */
 
 .card{
-background:rgba(255,255,255,0.05);
-border:1px solid rgba(255,255,255,0.1);
-border-radius:15px;
-padding:18px;
+background:#ffffff10;
+border:1px solid #ffffff20;
+border-radius:12px;
+padding:16px;
 margin-bottom:15px;
-backdrop-filter:blur(10px);
-animation:fadeUp 1s ease;
+text-align:center;
 }
 
 /* BUTTON */
 
 .btn{
 display:block;
-margin-top:15px;
-padding:15px;
-border-radius:40px;
-text-align:center;
-font-weight:bold;
+margin-top:14px;
+padding:14px;
+border-radius:30px;
+background:#1fa2ff;
+color:#fff;
+font-weight:700;
 text-decoration:none;
-color:#000;
-background:linear-gradient(45deg,#00eaff,#00ff88);
-box-shadow:0 0 15px #00eaff;
-transition:0.3s;
-}
-
-.btn:hover{
-transform:scale(0.95);
-box-shadow:0 0 25px #00ffcc;
 }
 
 /* FEATURES */
@@ -106,12 +96,13 @@ margin-top:10px;
 }
 
 .features li{
-margin:8px 0;
+margin:6px 0;
 font-size:14px;
 }
 
 .features li::before{
-content:"🔥 ";
+content:"✓ ";
+color:#4caf50;
 }
 
 /* FOOTER */
@@ -136,32 +127,13 @@ background:#000;
 
 .bottom a{
 display:block;
-padding:15px;
-border-radius:40px;
+padding:14px;
+border-radius:30px;
 text-align:center;
 font-weight:bold;
-background:linear-gradient(45deg,#ff00cc,#3333ff);
-color:#fff;
+background:#12d8fa;
+color:#000;
 text-decoration:none;
-animation:pulse 1.5s infinite;
-}
-
-/* ANIMATIONS */
-
-@keyframes fadeIn{
-from{opacity:0}
-to{opacity:1}
-}
-
-@keyframes fadeUp{
-from{opacity:0;transform:translateY(20px)}
-to{opacity:1;transform:translateY(0)}
-}
-
-@keyframes pulse{
-0%{transform:scale(1)}
-50%{transform:scale(1.05)}
-100%{transform:scale(1)}
 }
 </style>
 
@@ -172,7 +144,7 @@ to{opacity:1;transform:translateY(0)}
 <div class="container">
 
 <div class="profile">
-<img src="https://d1yei2z3i6k35z.cloudfront.net/13184094/69bd0eb2c86550.76532250_IMG_20260320_143717_213.jpg">
+<img src="https://github.com/h38331627-cloud/princegalaxy1/blob/main/priceimg.jpg?raw=true">
 <h1>PRINCE GALAXY</h1>
 </div>
 
@@ -180,7 +152,7 @@ to{opacity:1;transform:translateY(0)}
 <h2>🏏 Cricket Predictions</h2>
 <p>Accurate match & toss analysis</p>
 <a href="https://t.me/+ZwQE5-RHvFMwOWRl" class="btn">
-🚀 Join Free Telegram
+Join Free Telegram
 </a>
 </div>
 
@@ -195,7 +167,7 @@ to{opacity:1;transform:translateY(0)}
 </div>
 
 <div class="card">
-<p>🔥 Trusted by thousands of users</p>
+<p>Trusted by thousands of users</p>
 </div>
 
 <div class="footer">
@@ -206,7 +178,7 @@ Marketing by QB Agency™
 
 <div class="bottom">
 <a href="https://t.me/+ZwQE5-RHvFMwOWRl">
-👉 Join Now (Limited Access)
+Join Now
 </a>
 </div>
 
